@@ -1,0 +1,32 @@
+/* sharad styles */
+* {
+    font-family: 'Merriweather', serif;
+}
+
+
+/* header related styles */
+header {
+    margin: 50px 140px 0px 140px;
+}
+
+.banner-container {
+    background: linear-gradient( #070211, rgba(7, 2, 17, 0.00)), url('../images/Bannerimage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px;
+    padding: 100px 170px;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.main-banner-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 68px;
+    font-weight: 900;
+}

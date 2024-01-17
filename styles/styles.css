@@ -187,12 +187,13 @@ header {
 
 .comming-soon-container {
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 
 .comming-soon-container div {
-    width: 350px;
-    height: 350px; 
+    width: 400px;
+    height: 400px;
+    text-align: left;
 }
 
 .comming-soon-section-sub-title {
@@ -201,17 +202,22 @@ header {
     font-family: Inter;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 70px;
 }
 
 .comming-soon-img img {
     height: auto;
     width: 300px;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     border-radius: 50%;
-    border: 15px solid #F00;
+    border: 10px solid #F00;
+    margin: 0px;
 }
-
+.connimng-soon-newyear{
+    margin-left: 90px;
+}
 .connimng-soon-newyear h5 {
     text-align: left;
     color: #F00;
@@ -219,5 +225,5 @@ header {
     font-size: 48px;
     font-weight: 700;
     margin: 0px;
-    padding-top: 50px;
+    margin-top: 70px;
 }

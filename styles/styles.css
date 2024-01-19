@@ -388,3 +388,38 @@ header {
     border: none;
     margin: 0px;
 }
+
+
+.footer-section {
+    padding: 120px 140px;
+    background: #070211;
+}
+
+.footer-section hr {
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+}
+
+.footer-section-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section-items h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.footer-section-items h4 img{
+    font-size: 30px;
+}
+.footer-section>img {
+    margin: 20px 10px;
+}
